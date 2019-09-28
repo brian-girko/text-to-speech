@@ -1,0 +1,18 @@
+/* .tts-speaking {
+  position: relative;
+}
+.tts-speaking::after {
+  content: '';
+  position: absolute;
+  left: -100vw;
+  top: -5px;
+  width: 300vw;
+  height: calc(100% + 10px);
+  z-index: 100000;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+ */
+
+.tts-speaking {
+  box-shadow: 0 0 100vw yellow inset;
+}
